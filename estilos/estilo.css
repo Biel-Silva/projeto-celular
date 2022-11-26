@@ -29,15 +29,26 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
-    width: 500px;
+    height: 624px;
+    width: 301px;
     background: url('../pacote-d013/imagens/frame-iphone.png') no-repeat top center;
 }
 
 iframe#tela{
     position:relative;
     top:80px;
-    left:116px;
-    width:268px;
-    height: 500px;
+    left:17px;
+    width:267px;
+    height: 471px;
+}
+
+#barra-social{
+    text-align: right;
+}
+
+section#barra-social img{
+    width:50px;
+    margin-bottom:10px;
+    border-radius:50%;
+    box-shadow:2px 2px 5px #000000a9;
 }
